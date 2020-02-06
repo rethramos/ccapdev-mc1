@@ -1,0 +1,137 @@
+/* RAMOS, Rethaniel A. 
+	11839864 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    color: #262626;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.post {
+    box-sizing: content-box;
+    width: 450px;
+    margin: 20px auto 0 auto;
+    background-color: #fafafa;
+    border: 1px solid #E8EAED;
+    font-size: 14px;
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+}
+
+.profilepic {
+    width: 32px;
+    height: 32px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.profile-info .user-info {
+    flex-grow: 1;
+}
+
+span.username {
+    font-weight: 700;
+}
+
+.verified {
+    display: inline-flex;
+    background-image: url(sprites.png);
+    background-size: 410px 396px;
+    background-position: -164px -366px;
+    height: 12px;
+    width: 12px;
+}
+
+.profile-info .location-info {
+    line-height: 15px;
+    font-size: 12px;
+    flex-grow: 1;
+}
+
+.content {
+    width: 450px;
+}
+
+.content img {
+    width: 100%;
+}
+
+.footer {
+    padding: 10px;
+}
+
+.footer .actions {
+    width: 100%;
+    display: inline-block;
+}
+
+.footer .actions .like {
+    display: inherit;
+    background-image: url(sprites2.png);
+    background-size: 411px 393px;
+    height: 24px;
+    width: 24px;
+    background-position: 0px -319px;
+}
+
+.footer .actions .comment {
+    display: inherit;
+    background-image: url(sprites2.png);
+    background-size: 411px 393px;
+    height: 24px;
+    width: 24px;
+    background-position: -125px -294px;
+}
+
+.footer .actions .share {
+    display: inherit;
+    background-image: url(sprites2.png);
+    background-size: 411px 393px;
+    height: 24px;
+    width: 24px;
+    background-position: -200px -294px;
+}
+
+.footer .actions .bookmark {
+    display: inherit;
+    background-image: url(sprites2.png);
+    background-size: 411px 393px;
+    height: 24px;
+    width: 24px;
+    background-position: -175px -344px;
+    float: right;
+}
+
+.footer .likes {
+    margin: 5px 0;
+}
+
+.footer .likes span {
+    font-weight: 600;
+}
+
+p.tag {
+    color: #003469;
+}
+
+.footer .date {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: .2px;
+    margin: 5px 0;
+}
